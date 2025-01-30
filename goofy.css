@@ -1,0 +1,92 @@
+body{
+    background: url(images/Happy\ Valentines\ Day\ GIF.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.dance1{
+    position: relative;
+    top: 230px;
+    text-align: center;
+    left: 500px;
+
+}
+.dance2{
+    position: absolute;
+    top: 235px;
+   
+
+}
+.bae{ 
+    text-align: center;
+        
+
+}
+.bae img{
+    position: relative;
+    top: -480px;
+    width: 200px;
+    height: 250px;
+    animation-name: move;
+    animation-duration: 1.4s;
+
+}
+.me{
+    text-align: center;
+
+}
+.me img{
+    position: relative;
+    top: -340px;
+    width: 200px;
+    height: 250px;
+    animation-name: move2;
+    animation-duration: 2.7s;
+}
+.box1{
+    border: 2px solid black;
+    background-color: black;
+    height: 3px;
+    width: 30px;
+    position: absolute;
+    top: 360px;
+    left: 742px;
+    transform: rotateZ(-90deg);
+}
+.box2{
+    border: 2px solid black
+    ;
+    background-color: black;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 360px;
+    left: 742px;
+}
+
+.plus .box1{
+    transform: rotateZ(0deg);
+    animation-name: move;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in-out;
+}
+.plus .box2{
+    transform: rotateZ(90deg);
+    animation-name: move;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move{
+   from{
+    transform: translateY(700px);
+   }
+
+}
+@keyframes move2{
+    from{
+        transform: translateY(700px); 
+    }
+}

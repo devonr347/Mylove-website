@@ -1,0 +1,70 @@
+body{
+    background-color: beige;
+}
+
+
+
+.question p{
+   font-size: 100px;
+   align-items: center;
+   position: relative;
+   left: 210px;
+   text-decoration: none;
+   
+}
+.yes{
+    border: 2px solid ;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 750px;
+    align-items: center;
+     justify-content: center;
+     text-decoration: none;
+}
+.yes p{
+    font-size: 40px;
+    position: absolute;
+    left: 100px;
+    top: -30px;
+    text-decoration: none;
+}
+.no p{
+    font-size: 40px;
+    position: absolute;
+    left: 100px;
+    top: -30px;
+    text-decoration: none;
+}
+.no{
+    border: 2px solid ;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 750px;
+    bottom: 150px;
+    align-items: center;
+     justify-content: center;
+     text-decoration: none;
+}
+.yes:hover::after{
+    position: relative;
+    content: "✔";
+    font-size: 70px;
+    left: 5px;
+    top: -20px;
+
+    color: rgb(41, 255, 41);
+    text-decoration: none;
+    
+}
+.no:hover::after{
+    content: "✖";
+    font-size: 70px;
+    color:red;
+    position: relative;
+    left: 5px;
+    top: -20px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+}
+
+p{
+    font-size: 100px;
+   align-items: center;
+   position: relative;
+   left: 210px;
+   text-decoration: none;
+   animation-name: slide ;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@keyframes slide {
+    0% { transform: translateX(0%); }   /* Start position */
+    50% { transform: translateX(100%); } /* Move right */
+    100% { transform: translateX(0%); } /* Move back left */
+}
+
+img{
+    position: relative;
+    left: 600px;
+}
+.click{
+    position: relative;
+    left: 500px;
+    bottom: -150px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+ 
